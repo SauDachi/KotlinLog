@@ -11,9 +11,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val dog = Dog("ポチ", 3)
-        val human = Human("太郎", 20)
+        val human = Human("太郎", 20, "Kotlin")
 
         dog.move()
         human.say()
+        human.think()
     }
 }
